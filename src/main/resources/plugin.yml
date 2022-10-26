@@ -1,0 +1,12 @@
+name: CustomEntityExample
+main: me.petterim1.customentityexample.Main
+version: "${pom.version}"
+api: ["9.9.9"]
+author: PetteriM1
+load: STARTUP
+commands:
+  test:
+    permission: test
+permissions:
+  test:
+    default: op
